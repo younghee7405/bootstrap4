@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <style type="text/css">
+        .b{
+            border: 1px solid red;
+        }
+
+        .container{
+            /* < 576px : 100%  ,      max-width: >=1200px; */
+        }
+
+        /* 그리드 클래스
+        .col-(초소형 - 화면의 너비가 576px 미만)
+        .col-sm-(소형 - 화면의 너비가 576px이상)
+        .col-md-(중형 - 화면의 너비가 768p)
+        .col-lg-(대형 - 화면의 너비가 992px 이상x 이상)
+        .col-xl-(초대형 - 화면의 너비가 1200px 이상) */
+    </style>
+
+
+
+</head>
+<body>
+
+    <h1>grid system</h1>
+
+    <div class="container b">
+
+        <div class="row">
+            <div class="col-md-6 b col-sm-4">hello</div>
+            <div class="col-md-3 b col-sm-4">hello</div>
+            <div class="col-md-3 b col-sm-4">hello</div>            
+        </div><!-- row -->
+
+        <div class="row">
+            <div class="col-sm-4 b">안녕</div>
+            <div class="col-sm-4 b">안녕</div>
+            <div class="col-sm-4 b" >안녕</div>            
+        </div><!-- row -->
+
+        <div class="row">
+            <div class="col-md-4 b offset-md-4">hello</div>
+            <div class="col-md-4 b">hello</div>
+        </div>
+    </div><!-- container -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 border">1</div>
+            <div class="col-md-1 border">2</div>
+            <div class="col-md-1 border">3</div>
+            <div class="col-md-1 border">4</div>
+            <div class="col-md-1 border">5</div>
+            <div class="col-md-1 border">6</div>
+            <div class="col-md-1 border">7</div>
+            <div class="col-md-1 border">8</div>
+            <div class="col-md-1 border">9</div>
+            <div class="col-md-1 border">10</div>
+            <div class="col-md-1 border">11</div>
+            <div class="col-md-1 border">12</div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-2 border">1</div>
+            <div class="col-md-1 border">2</div>
+            <div class="col-md-3 border">3</div>
+            <div class="col-md-1 border">4</div>
+            <div class="col-md-1 border">5</div>
+            <div class="col-md-1 border">6</div>
+            <div class="col-md-1 border">7</div>
+            <div class="col-md-2 border">8</div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 border">1</div>
+            <div class="col-md-2 border">2</div>
+            <div class="col-md-2 border">3</div>
+            <div class="col-md-2 border">4</div>
+            <div class="col-md-2 border">5</div>
+            <div class="col-md-2 border">6</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 border">1</div>
+            <div class="col-md-4 border">2</div>
+            <div class="col-md-4 border">3</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 border">1</div>
+            <div class="col-md-6 border">2</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 border">1</div>
+        
+        </div>
+
+
+    </div><!-- container -->
+
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <div class="container border py-5">
+        <h2 class="mb-3">버튼스타일</h2>
+
+        <button type="button"class="btn"> Basic </button>
+        <button type="button"class="btn btn-primary"> primary </button>
+        <button type="button"class="btn btn-secondary"> secondary </button>
+        <button type="button"class="btn btn-success mx-5"> success </button>
+        <button type="button"class="btn btn-info"> info </button>
+        <button type="button"class="btn btn-warning"> warning </button>
+        <button type="button"class="btn btn-danger"> danger </button>
+        <button type="button"class="btn btn-dark"> dark </button>
+        <button type="button"class="btn btn-light"> light </button>
+        <button type="button"class="btn btn-link"> link </button>
+    </div>
+
+    <div class="container mt-4 border">
+        <!-- margin, padding -->
+        <!-- m : margin  p:padding 
+        t : top 
+        b : bottom 
+        s : left 
+        e : right 
+        x : x left right
+        y : top, bottom
+
+        0,1,2,3,4,5, mx-auto 
+        0 : 0 
+        1 : 0.25rem fontsize 16px 이면 4px 
+        2 : 0.5rem  fontsize 16px 이면 8px
+        3 : 1rem  fontsize 16px 이면 16px
+        4 : 1.5rem  fontsize 16px 이면 24px
+        5 : 3rem  fontsize 16px 이면 48px 
+        auto : margin 자동 세팅 -->
+
+
+        <a href="#" class="btn btn-info">link-button</a>
+
+        <input type="button" value="input button" class="btn btn-dark">
+        <input type="submit" name="" id="" value="전송버튼"  class="btn btn-danger">
+        <input type="reset" value="reset" class="btn btn-warning">
+
+        <p class="btn btn-secondary">more view</p>
+
+    </div>
+
+    <div class="container mt-3 border py-5">
+        <h2>버튼 윤곽선</h2>
+        <button class="btn btn-outline-primary">primary</button>
+        <button class="btn btn-outline-secondary btn-lg">secondary</button>
+        <button class="btn btn-outline-success">success</button>
+        <button class="btn btn-outline-info btn-sm">info</button>
+        <button class="btn btn-outline-warning">warning</button>
+        <button class="btn btn-outline-danger">danger</button>
+        <button class="btn btn-outline-dark">dark</button>
+        <button class="btn btn-outline-light">light</button>
+
+    </div>
+
+    <div class="container border">
+        <button class="btn btn-danger btn-block btn-lg">full-width1</button>
+        <button class="btn btn-success btn-block">full-width2</button>
+        <button class="btn btn-primary btn-block btn-sm">full-width3</button>
+    </div>
+
+    <div class="container border my-5 py-4">
+        <button class="btn btn-primary active">공지사항</button>
+        <button class="btn btn-primary" disabled>갤러리</button>
+
+        <a href="http://www.naver.com" class="btn btn-danger disabled" > 네이버</a>
+    </div>
+
+    
+</body>
+</html>
